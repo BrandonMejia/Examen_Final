@@ -5,7 +5,6 @@ import pieces.King;
 import pieces.ChessGamePiece;
 import board.ChessGameBoard;
 import board.BoardSquare;
-import java.util.ArrayList;
 import java.awt.Color;
 import javax.swing.JOptionPane;
 import java.awt.event.MouseEvent;
@@ -175,7 +174,6 @@ public class ChessGameEngine{
         else
         {
             board.resetBoard( false );
-            // System.exit(0);
         }
     }
     /**
